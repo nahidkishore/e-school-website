@@ -1,4 +1,7 @@
-
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
 .navbar-dark{
   background-color: #2d8ba8;
 }
@@ -21,6 +24,11 @@
 	color:floralwhite;
 
 }
+
+.call-button{
+  padding: 5px 20px;
+  border-radius: 10px;
+}
 .red-color{
   color: #c819c8;
   font-weight: bold;
@@ -28,6 +36,35 @@
 .illustration{
   max-width: 100%;
 }
+
+/* Carousel section part */
+.join-now-button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+}
+.carousel-item{
+  padding: 20px 40px;
+}
+.carousel-indicators li{
+  height: 8px;
+  width: 10px;
+  background-color: #bfb3ca;
+}
+.carousel-indicators li.active{
+  height: 8px;
+  width: 30px;
+  background-color: #b21be0;
+ 
+}
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+
+/* End carousel section part */
 
 .card-img-top{
   width: 80%;
@@ -82,13 +119,19 @@
   color: white;
   height: 400px;
 }
-.blog-section{
+
+ .blog-section{
   background-color: black;
   color: white;
-  height: 300px;
-  width: 100%;
-
   
+}
+
+
+ .blog-section{
+  background-color: #492222;
+  color: white;
+  height: 300px;
+  width: 100%; 
 }
 
 .blog-info-style{
@@ -96,12 +139,13 @@
   font-weight: 500px;
   text-align: center;
   padding:40px 15px 0px 60px ;
+} */
+.blog-info-style ul{
+  list-style: none;
+} 
+li{
+  list-style: none;
 }
-
-
-
-
-
 
 .subscribe{
   background-color: #ebe4d2;
@@ -117,9 +161,10 @@
 footer{
   text-align: center;
   background-color: #c3b5da;
-}
+} 
 
 p{
   color:lightslategray;
   font-size: 20px;
 }
+
