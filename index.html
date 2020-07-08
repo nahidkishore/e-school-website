@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-School Website develop by nahid </title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <!-- **** Start navigation section part***** -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="image/ICON/Logo.png" height="60" width="120" alt=""></a>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#books"><i class="fa fa-book" aria-hidden="true"></i> Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#course"><i class="fa fa-list" aria-hidden="true"></i> Courses</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true"></i>
+              Others
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#testimonial">Testimonial</a>
+              <a class="dropdown-item" href="#subscribe">Subscribe</a>
+              
+              
+            </div>
+          </li>
+     
+          <li class="nav-item">
+            <a class="nav-link" href="#blog"><i class="fa fa-rss-square" aria-hidden="true"></i> Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"> <i class="fa fa-address-card" aria-hidden="true"></i>Contacts</a>
+          </li>
+          
+        </ul>
+        <span class="navbar-text login-font">
+          <a  id="loginModalToggle">
+              <span  class="fa fa-sign-in"></span> Login
+          </a>
+      </span>
+      </div>
+    </nav>
+  
+  
+    <!-- **** End navigation section part** -->
+
+
+  
+<!-- **** Start Login table modal section part-->
+
+
+    <div id="loginModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg" role="content">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title"> Login</h4>
+                  <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="form-row">
+                          <div class="form-group col-sm-4">
+                                  <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                  <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                          </div>
+                          <div class="form-group col-sm-4">
+                              <label class="sr-only" for="exampleInputPassword3">Password</label>
+                              <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                          </div>
+                          <div class="col-sm-auto">
+                              <div class="form-check">
+                                  <input class="form-check-input" type="checkbox">
+                                  <label class="form-check-label"> Remember me
+                                  </label>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="form-row">
+                          <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                          <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                      </div>
+                      
+      
+                  </form>
+      
+              </div>
+      
+          </div>
+      
+      </div>
+      
+   
+  </div>
+
+
+
+  <!-- **************End Login table modal section ***********-->
+
+  <!-- *****Start **** Header Section Part****** -->
+
+<header class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12 d-flex align-items-center">
+          <div>
+              <p class="red-color">Are you ready to Learn?</p>
+              <h1>Learn With fun <br>
+                  on <span class="text-success">any schedule</span>
+              </h1>
+              <p>Lorem ipsum dolor sit amet, consectetur <br>  adipiscing elit. Varius blandit facilisis quam netus.</p>
+              <button class="buy-course-button btn btn-info">Get Started</button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="+8801688815749">
+                Call US
+              </button>
+        
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-12 d-flex align-items-center">
+      
+          <img class="illustration" src="image/Photos/Illustration.png" alt="">
+      </div>
+     
+  </div>
+  </div>
+
+</header>
+
+
+<!-- ****End **** Header Section Part****** -->
+
+<!-- **** Start Categories Section part**** -->
+
+
+<div class="container " id="books">
+  <div class="card-deck">
+    <div class="card card-bg">
+      <div class="d-flex justify-content-center">
+
+      </div>
+      <img src="image/ICON/book.png" class="card-img-top img-fluid" alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title">1500+ Topic</h5>
+        <p class="card-text">Learn Anything</p>
+      </div>
+     
+    </div>
+    <div class="card">
+      <img src="image/ICON/Student.png" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title">1500+ Topic</h5>
+        <p class="card-text">Learn Anything</p>
+      </div>
+     
+    </div>
+    <div class="card">
+      <img src="image/ICON/Test.png" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title">1500+ Topic</h5>
+        <p class="card-text">Learn Anything</p>
+      </div>
+     
+    </div>
+    <div class="card">
+      <img src="image/ICON/Students.png" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title">1500+ Topic</h5>
+        <p class="card-text">Learn Anything</p>
+      </div>
+     
+    </div>
+  </div>
+
+
+
+
+
+<!-- **** End Categories Section part**** -->   
+  
+<!-- ****Start Course Section part **** -->
+
+
+<div class="container" id="course">
+  <div class="d-flex justify-content-center">
+    <h1>Online Course</h1>
+  </div>
+  <div class="card-deck">
+    <div class="card">
+      <img src="image/Photos/Morder pyschology.png" class="card-img-top course-image " alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title">Modern Psychology</h5>
+        <p class="card-text"> Designation</p>
+        <button type="button" class="btn btn-info buy-course-button">Buy Course</button>
+      </div>
+      <div class="card-footer d-flex justify-content-between">
+        <div class="footer-icon">
+          <img src="image/ICON/calendar.png" alt="">
+          <small>Start 20 april 2021</small>
+        </div>
+        <div class="footer-icon">
+          <img src="image/ICON/people.png" alt="">
+          <small>60 seats</small>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="image/Photos/Morder psyc.png" class="card-img-top course-image " alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title">Modern Psychology</h5>
+        <p class="card-text"> Designation</p>
+        <button type="button" class="btn btn-info buy-course-button">Buy Course</button>
+      </div>
+      <div class="card-footer d-flex justify-content-between">
+        <div class="footer-icon">
+          <img src="image/ICON/calendar.png" alt="">
+          <small>Start 20 april 2021</small>
+        </div>
+        <div class="footer-icon">
+          <img src="image/ICON/people.png" alt="">
+          <small>60 seats</small>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="image/Photos/Morder pychons.png" class="card-img-top course-image " alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title">Modern Psychology</h5>
+        <p class="card-text"> Designation</p>
+        <button type="button" class="btn btn-info buy-course-button">Buy Course</button>
+      </div>
+      <div class="card-footer d-flex justify-content-between">
+        <div class="footer-icon">
+          <img src="image/ICON/calendar.png" alt="">
+          <small>Start 20 april 2021</small>
+        </div>
+        <div class="footer-icon">
+          <img src="image/ICON/people.png" alt="">
+          <small>60 seats</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- ****End*****Course Section part **** -->
+
+<!--Start*****Testimonial  Section part **** -->
+  
+<div class="container " id="testimonial">
+  <div class="d-flex justify-content-center">
+    <h1  class="testimonial">Testimonial </h1>
+  </div>
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-5">
+      <img src="image/Photos/Man.png" class="img-fluid w-100 h-100 testimonial-image" alt="">
+
+    </div>
+    <div class="col-md-7">
+      <p class="testimonial-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi quas blanditiis animi,neque odit facere officia dignissimos culpa, laborum quod?</p>
+      
+
+    </div>
+
+  </div>
+
+
+</div>
+<!--End *****Testimonial  Section part **** -->
+
+<!-- **** Start  blog section  part*** -->
+
+
+
+
+
+<div class="container-fluid blog-section" id="blog">
+  <div class="d-flex d-flex align-items-center justify-content-center">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 blog-info-style">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 blog-info-style">
+        <ul>
+          <h4>Course</h4>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          
+        </ul>
+
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 blog-info-style">
+        <ul>
+          <h4>Terms</h4>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          
+        </ul>
+
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 blog-info-style">
+        <ul>
+          <h4>Link</h4>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          <h6>Graphic Design</h6>
+          
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+    
+
+
+  </div>
+  <!-- **** End blog section part*** -->
+
+
+
+
+
+
+
+<!-- *****start Subscribe section -->
+<div class="container subscribe d-flex justify-content-center align-items-center" id="subscribe">
+  <div>
+    <h1>LET'S STAY IN TOUCH</h1>
+    <p>Get Update on sales, specials and more</p>
+    <input class="form-control" type="text">
+    <button class=" btn btn-success sub-button" >SUBMIT</button>
+    <div class="d-flex justify-content-center">
+      <a target="_blank" href="nahidkishore99@gmail.com"><button  class="btn btn-primary" id="registration">Join With Us</button></a>
+      
+    </div>
+
+  </div>
+</div>
+
+
+<!-- *****End Subscribe section -->
+
+<!-- ****Start Footer section**** -->
+
+<footer class="fixed-bottom" id="contact">
+  <div class="text-center">
+    <a target="_blank" class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus-official fa-lg"></i></a>
+    <a target="_blank" class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/nahid.kishore"><i class="fa fa-facebook-official fa-lg"></i></a>
+    <a target="_blank"  class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/nahid-kishore/"><i class="fa fa-linkedin fa-lg"></i></a>
+    <a target="_blank" class="btn btn-social-icon btn-twitter" envelope-o href="https://www.linkedin.com/in/nahid-kishore/"><i class="fa fa-twitter fa-lg"></i></a>
+    <a target="_blank" class="btn btn-social-icon btn-google" href="https://www.linkedin.com/in/nahid-kishore/"><i class="fa fa-youtube fa-lg"></i></a>
+    <a target="_blank" class="btn btn-social-icon" href="nahidkishore99@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>
+</div>
+  <p>&copy;2020, by Nahidul Islam, EWU</p>
+</footer>
+
+<!-- ****End Footer section**** -->
+
+
+    <!-- jQuery must come first, then Popper.js, and then our JavaScript plugins. -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+
+
+  <!-- Start ****For login button, tooltip  JS Script***** -->
+<script>
+
+
+
+// for signing button
+$("#loginModalToggle").click(function(){
+  $("#loginModal").modal('toggle');
+  });
+
+
+ //for tooltip
+
+ $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+  });
+</script>
+  
+
+  <!-- End ****For login button, tooltip  JS Script*****-->
+</body>
+</html>

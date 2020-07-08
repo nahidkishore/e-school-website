@@ -1,0 +1,125 @@
+
+.navbar-dark{
+  background-color: #2d8ba8;
+}
+
+.navbar li{
+  font-size: 25px;
+}
+.login-font{
+  font-size: 25px;
+}
+ .container{margin-top: 100px;
+}
+
+
+
+.jumbotron{
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background: #ccbfe2;
+	color:floralwhite;
+
+}
+.red-color{
+  color: #c819c8;
+  font-weight: bold;
+}
+.illustration{
+  max-width: 100%;
+}
+
+.card-img-top{
+  width: 80%;
+  height: 40%;
+   padding: 45px 35px 20px 100px;
+ }
+
+
+ #course, #subscribe, #blog{
+  margin-top: 100px;
+}
+.course-image{
+  padding:20px 50px 20px 50px ;
+  width: 100%;
+ 
+}
+.footer-icon img{
+  width: 20%;
+}
+.card{
+  border-radius: 10px;
+  background-color: #afaab9;
+}
+.card:hover{
+  background-color: white;
+}
+.card-footer{
+  border-top: none;
+  background-color: white;
+}
+.buy-course-button{
+  border-radius: 15px;
+  padding: 5px 15px;
+}
+.testimonial{
+  font-weight: bold;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+.testimonial-image{
+  padding-left: 200px;
+}
+
+.testimonial-para{
+  font-size: 20px;
+  padding-right: 100px;
+  color: dimgrey;
+}
+.course-info{
+  background-color: black;
+  color: white;
+  height: 400px;
+}
+.blog-section{
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 100%;
+
+  
+}
+
+.blog-info-style{
+  font-size: 16px;
+  font-weight: 500px;
+  text-align: center;
+  padding:40px 15px 0px 60px ;
+}
+
+
+
+
+
+
+.subscribe{
+  background-color: #ebe4d2;
+  height: 500px;
+}
+
+.sub-button{
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+
+footer{
+  text-align: center;
+  background-color: #c3b5da;
+}
+
+p{
+  color:lightslategray;
+  font-size: 20px;
+}
